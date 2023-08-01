@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/teal_200"
+    android:layout_height="450dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Thêm phiếu mượn"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thành viên: "/>
+    <Spinner
+        android:layout_marginTop="8dp"
+        android:id="@+id/spnthanhvien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên sách: "/>
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:id="@+id/spnsachphieu_muon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phtienthue"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phtrasach"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pmngaymuon"/>
+
+
+    <CheckBox
+
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:id="@+id/chk_status"
+        android:text="Đã trả sách"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnthemadd_phieu_muon"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Thêm"
+            android:textColor="@color/white"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/btnhuyphieu_muon"
+            android:text="Huỷ"/>
+    </LinearLayout>
+</LinearLayout>

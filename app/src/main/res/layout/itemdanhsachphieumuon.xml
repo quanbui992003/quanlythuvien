@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/teal_200"
+   >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/dsmaphieumuon"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:id="@+id/dsmattpm"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_baseline_delete_24"
+            android:id="@+id/deletepm"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_baseline_edit_24"
+            android:id="@+id/updatepm"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dsmasachpm"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/dsmatvpm"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/dstienthue"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="30dp"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/dsngay"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/dsngaytra"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp" />
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

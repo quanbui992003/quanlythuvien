@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/quanly"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="quan ly phieu muon"
+        />
+    <item
+        android:id="@+id/quanlyloaisach"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="quanlyloaisach"
+        />
+    <item
+        android:id="@+id/quanlysach"
+        android:icon="@drawable/ic_baseline_bookmark_24"
+        android:title="quanlysach"
+        />
+
+
+    <item
+        android:id="@+id/quanlythanhvien"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:title="quanlythanhvien"
+        />
+    <item
+        android:id="@+id/thongke"
+        android:title="thongke"
+        >
+        <menu>
+            <item
+                android:id="@+id/top10"
+                android:icon="@drawable/ic_baseline_vertical_align_center_24"
+                android:title="top 10 loai sach hang dau"
+                />
+            <item
+                android:id="@+id/doanhthu"
+                android:icon="@drawable/ic_baseline_attach_money_24"
+                android:title="doanhthu"
+                />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nguoidung"
+        android:title="nguoi dung"
+        >
+        <menu>
+            <item
+                android:id="@+id/themnguoidung"
+                android:icon="@drawable/ic_baseline_key_24"
+                android:title="them tai khoan"
+                />
+            <item
+                android:id="@+id/doimatkhau"
+                android:icon="@drawable/ic_baseline_key_24"
+                android:title="doi mat khau"
+                />
+            <item
+                android:id="@+id/dangxuat"
+                android:icon="@drawable/ic_baseline_output_24"
+                android:title="dang xuat"
+                />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">quanbhph20506.fptpoly.pnlib</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="navigationddrawer_open">Open nanavigationd drawer</string>
+    <string name="navigationddrawer_close">Close nanavigationd drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
